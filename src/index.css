@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -34,6 +35,8 @@ body {
         'Noto Color Emoji';
     font-weight: 400;
     margin: 0;
+    color: white;
+    font-size: 14px;
 }
 ol,
 ul {
